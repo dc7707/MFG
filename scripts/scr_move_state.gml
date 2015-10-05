@@ -43,9 +43,6 @@ if (hspd > 0) {
     sprite_index = spr_dan_left;
 }
 
-///Prroximity stuff
-///scr_doors();
-
 
 
 
