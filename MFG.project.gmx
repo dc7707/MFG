@@ -11,6 +11,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_inv_wall</sprite>
+    <sprite>sprites\spr_proximity</sprite>
     <sprite>sprites\spr_dan_rm_flr</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\spr_dan</sprite>
@@ -43,6 +44,8 @@
     <object>objects\obj_pod</object>
     <object>objects\obj_dan_rm_flr</object>
     <object>objects\obj_door</object>
+    <object>objects\obj_door_open</object>
+    <object>objects\obj_proximity</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
