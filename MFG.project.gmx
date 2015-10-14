@@ -23,6 +23,7 @@
     <sprite>sprites\spr_pod</sprite>
     <sprite>sprites\spr_push_block</sprite>
     <sprite>sprites\spr_door</sprite>
+    <sprite>sprites\spr_orb</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -32,6 +33,7 @@
     <script>scripts\scr_move_state.gml</script>
     <script>scripts\scr_get_input.gml</script>
     <script>scripts\scr_doors.gml</script>
+    <script>scripts\scr_create_orbs.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -46,6 +48,7 @@
     <object>objects\obj_door</object>
     <object>objects\obj_door_open</object>
     <object>objects\obj_proximity</object>
+    <object>objects\obj_orb</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
