@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed = .5;
+            <string>speed = 1;
 targetx = random(room_width);
 targety = random(room_height);
 orbDirection = random(4);
@@ -80,6 +80,11 @@ switch(orbDirection)
         phy_position_x -= sign(targetx - x)*speed;
         phy_position_y += sign(targety - y)*speed;
     break;
+}
+
+if x &lt; 0 or y &lt;0 or x &gt; room_width or y &gt; room_height {
+    instance_destroy();
+    scr_create_orbs();
 }
 </string>
           </argument>

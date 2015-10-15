@@ -42,9 +42,3 @@ if (hspd > 0) {
 } else if (hspd < 0) {
     sprite_index = spr_dan_left;
 }
-
-if place_meeting(x,y,obj_door) {
-    speed = 0;    
-}
-
-
