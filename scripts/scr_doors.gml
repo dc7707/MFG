@@ -43,14 +43,14 @@ with obj_player {
                     }
                 }
                 if (image_index + image_speed <= image_number -1) {
-                    image_speed = .25;
+                    image_speed = .2;
                 }
             } else {
-                if (image_index + image_speed > 0) {image_speed = -.25;} else {
+                if (image_index + image_speed > 0) {image_speed = -.2;} else {
                     image_index = 0;
                     image_speed = 0;
                 }
-            }
+            } 
         }
     with instance_nearest(x,y,obj_door_open) {
         if (distance_to_object(obj_player) > 20) {
@@ -63,4 +63,8 @@ with obj_player {
             with mydoor {image_index = image_number -1}
         }
     }
+}
+
+with obj_door {
+                if (image_index + image_speed <= 0) {image_speed = 0;}
 }
