@@ -13,7 +13,6 @@
     <sprite>sprites\spr_inv_wall</sprite>
     <sprite>sprites\spr_proximity</sprite>
     <sprite>sprites\spr_dan_rm_flr</sprite>
-    <sprite>sprites\sprite5</sprite>
     <sprite>sprites\spr_dan</sprite>
     <sprite>sprites\spr_dan_dn</sprite>
     <sprite>sprites\spr_dan_up</sprite>
@@ -25,6 +24,7 @@
     <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_orb</sprite>
     <sprite>sprites\spr_heart</sprite>
+    <sprite>sprites\spr_glass</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -51,6 +51,7 @@
     <object>objects\obj_proximity</object>
     <object>objects\obj_orb</object>
     <object>objects\obj_heart</object>
+    <object>objects\obj_glass</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
