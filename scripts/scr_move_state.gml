@@ -23,7 +23,7 @@ phy_position_x += hspd;
 phy_position_y += vspd;
 
 ///Animate
-image_speed = .2;
+image_speed = 6 / room_speed;
 if (len == 0) {
     image_index = 0;
     sprite_index = spr_dan;

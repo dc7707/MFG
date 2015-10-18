@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed = 1;
+            <string>speed = 30 / room_speed;
 targetx = random(room_width);
 targety = random(room_height);
 orbDirection = random(4);

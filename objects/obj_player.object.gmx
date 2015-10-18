@@ -31,11 +31,11 @@
 hspd = 0;
 vspd = 0;
 len = 0;
-image_speed = .2;
+image_speed = 6 / room_speed;
 state = scr_move_state;
 
 ///Instance Variables
-spd = 6;
+spd = 180 / room_speed;
 </string>
           </argument>
         </arguments>

@@ -25,10 +25,10 @@ with obj_player {
                 }
             }
             if (image_index + image_speed <= image_number -1) {
-                image_speed = .3;
+                image_speed = 9 / room_speed;
             }
         } else {
-            if (image_index + image_speed > 0) {image_speed = -.3;} else {
+            if (image_index + image_speed > 0) {image_speed = -9 / room_speed;} else {
                 image_index = 0;
                 image_speed = 0;
             }

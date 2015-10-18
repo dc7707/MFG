@@ -70,6 +70,7 @@ surface_resize(application_surface,ScreenWidth,ScreenHeight);
             <kind>1</kind>
             <string>///Check Keys
 scr_get_input();
+//Automatic Door Stuff (proximity etc)
 scr_doors();
 </string>
           </argument>

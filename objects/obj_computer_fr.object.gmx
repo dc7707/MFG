@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Animate
 
-image_speed = .2;
+image_speed = 6 / room_speed;
 </string>
           </argument>
         </arguments>

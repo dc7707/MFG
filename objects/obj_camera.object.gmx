@@ -50,8 +50,8 @@
             <kind>1</kind>
             <string>///Follow player
 
-x += (obj_player.x -x) * .1;
-y += (obj_player.y -y) * .1;
+x += (obj_player.x -x) * 3 / room_speed;
+y += (obj_player.y -y) * 3 / room_speed;
 
 </string>
           </argument>

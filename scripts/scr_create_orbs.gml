@@ -1,5 +1,5 @@
 ///scr_create_orbs()
-NumberOfOrbs = 200;
+NumberOfOrbs = 100;
 
 color1 = make_colour_rgb(random(255), random(255), random(255));
 color2 = make_colour_rgb(random(255), random(255), random(255));
