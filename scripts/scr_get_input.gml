@@ -29,6 +29,7 @@ if (distance_to_object(obj_computer_fr) <= 4) {
     with obj_computer_fr {
         if (keyboard_check_pressed(ord("X"))) {
             audio_play_sound(snd_computer,1,0);
+            scr_text("Hello World!#How are you?#This is some test text.#This needs some work.", 0.25,view_xview + 30,view_xview + 30);
         }
     }
 }
