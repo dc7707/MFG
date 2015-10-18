@@ -82,7 +82,7 @@ switch(orbDirection)
     break;
 }
 
-if x &lt; 0 or y &lt;0 or x &gt; room_width or y &gt; room_height {
+if x &lt; -256 or y &lt; -256 or x &gt; room_width + 256 or y &gt; room_height + 256 {
     instance_destroy();
     scr_create_orbs();
 }
