@@ -60,8 +60,19 @@ if (time &lt; text_length) {
 }
 if (time_passed &lt; duration) {
     time_passed += 1 / room_speed;
+    obj_player.state = scr_freeze_state;
+    if (time_passed &lt;= 2 / room_speed) {} else {
+        if (keyboard_check_pressed(ord("X"))) {
+             obj_player.state = scr_move_state;
+            instance_destroy();
+        }
+    }
 }
-if (time_passed &gt;= duration) {instance_destroy();}
+
+if (time_passed &gt;= duration) {
+    obj_player.state = scr_move_state;
+    instance_destroy();
+}
 
 ///Render textbox &amp; text
 draw_set_alpha(alpha);
