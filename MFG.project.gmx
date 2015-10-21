@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\snd_computer</sound>
     <sound>sound\snd_pod</sound>
+    <sound>sound\sound2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
@@ -58,6 +59,7 @@
     <object>objects\obj_orb</object>
     <object>objects\obj_heart</object>
     <object>objects\obj_glass</object>
+    <object>objects\obj_part</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
