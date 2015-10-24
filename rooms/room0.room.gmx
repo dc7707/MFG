@@ -10,9 +10,7 @@
   <persistent>0</persistent>
   <colour>32768</colour>
   <showcolour>0</showcolour>
-  <code>//scr_create_orbs();
-
-scr_text("OCT 23, 1990... Our hero begins his day... He is tired... He never gets enough sleep.#Press X to video game.", .25,view_xview + 10,view_yview + 10);</code>
+  <code>scr_text("This is text that is displayed at the start of the level... #Eventually it will tell a story... #Not yet, though.# #Press X to video game.", .25,view_xview + 100,view_yview);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
